@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    function light(sw) {
+        var pic;
+        if (sw == 0) {
+            pic = "lightson.png"
+        }
+        else {
+            pic = "lightsoff.png"
+        }
+        document.getElementById("lightson").src = pic;
+    }
+</script>
+</head>
+<body>
+    <img id="lightson" src="lightson.png" alt="lightson" style="width: 100; height: 180;">
+    <button type="button" onclick = "light(1)">Light On</button>
+    <button type="button" onclick = "light(0)">Light Off</button>
+</body>
+</html>
