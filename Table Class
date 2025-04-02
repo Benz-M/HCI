@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .header{
+                font-weight: 1000;
+                border-radius: 1px;
+                border: 2px solid black;
+                align-items: center;
+                background-color: yellow;
+            }
+            th {
+                border: 2px solid black;
+                align-items: center;
+                background-color: aqua;
+                font-weight: 100;
+            }
+            td{
+                border: 2px solid black;
+                text-align: center;
+            }
+            .n1{
+                text-align: left;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th class = "header" colspan="6">STUDENT MARK SHEET</th>
+            </tr>
+            <tr>
+                <th>NAME</th><th>MATH</th><th>SCIENCE</th><th>ENGLISH</th><th>PHYSICS</th><th>GENERAL KNOWLEDGE</th>
+            </tr>
+            <tr>
+                <td class = "n1">Peter Pan</td>
+                <td>85</td>
+                <td>87</td>
+                <td>88</td>
+                <td>92</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td class = "n1">Pedro Penduko</td>
+                <td>91</td>
+                <td>81</td>
+                <td>78</td>
+                <td>71</td>
+                <td>74</td>
+            </tr>
+            <tr>
+                <td class = "n1">Cardo Bitangcol</td>
+                <td>81</td>
+                <td>86</td>
+                <td>88</td>
+                <td>84</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <td class = "n1">Tony Nose</td>
+                <td>84</td>
+                <td>86</td>
+                <td>87</td>
+                <td>82</td>
+                <td>82</td>
+            </tr>
+            <tr>
+                <td class = "n1">Petra Pepita</td>
+                <td>71</td>
+                <td>79</td>
+                <td>82</td>
+                <td>88</td>
+                <td>89</td>
+            </tr>
+        </table>
+    </body>
+</html>
